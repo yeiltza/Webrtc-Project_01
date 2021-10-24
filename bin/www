@@ -29,7 +29,7 @@ const config = {
 };
 
 
-var server = https.createServer(app);
+var server = https.createServer(config, app);
 
 /**
  * Listen on provided port, on all network interfaces.
